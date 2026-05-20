@@ -1,0 +1,39 @@
+# ▶️ How to Use the Driver Drowsiness Detection System
+
+This project uses Computer Vision and Embedded Systems to monitor a driver's eye movements in real time and detect drowsiness. When the system detects prolonged eye closure, it triggers warning and emergency alerts using ESP32 hardware and Telegram notifications.
+
+The complete system consists of:
+- Python AI detection software
+- OpenCV + MediaPipe Computer Vision
+- ESP32 embedded controller
+- LCD display
+- Buzzer and LED alerts
+- Telegram Bot notification system
+
+---
+
+# 🛠️ Requirements
+
+## Software Requirements
+
+Install the following software before running the project:
+
+### Python
+Download and install Python:
+- https://www.python.org/downloads/
+
+### Arduino IDE
+Used to upload code into ESP32:
+- https://www.arduino.cc/en/software
+
+### ESP32 Board Package
+Install ESP32 board support inside Arduino IDE.
+
+---
+
+# 📦 Required Python Libraries
+
+Install all required Python libraries using pip:
+
+```bash
+pip install opencv-python mediapipe numpy pyserial
